@@ -16,7 +16,7 @@ class Api::V1::HerbsController < ApplicationController
       private
     
       def herb_params
-        params.permit(:title, :description, :image_url, :nature_id)
+        params.permit(:name, :description, :image_url, :nature_id)
       end
     
 end
