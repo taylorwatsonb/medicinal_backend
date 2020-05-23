@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Nature.destroy_all
+Herb.destroy_all
 
 flower = Nature.create(title: "Flower")
 root = Nature.create(title: "Root")
